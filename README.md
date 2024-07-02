@@ -1,7 +1,7 @@
 # Sentiment Analysis of Amazon Cell Phone Reviews
 
 ## Introduction
-This project focuses on building a sentiment analysis model to classify Amazon product reviews into positive, negative, and neutral categories. The dataset consists of reviews for cell phones and accessories collected from Amazon for the years 2017-2018. Given the vast amount of consumer feedback available, this model aims to automatically categorize the sentiment expressed in user reviews, which can be beneficial for both potential buyers and product vendors in assessing consumer satisfaction.
+This project focuses on building a sentiment analysis model to classify Amazon product reviews into positive, negative, and neutral categories. The dataset consists of reviews for cell phones and accessories collected from Amazon , the Current data includes reviews in the range May 1996 - Oct 2018. Given the vast amount of consumer feedback available, this model aims to automatically categorize the sentiment expressed in user reviews, which can be beneficial for both potential buyers and product vendors in assessing consumer satisfaction.The link to the dataset is :- https://nijianmo.github.io/amazon/index.html .
 
 ## Approach Used
 The project employs a Machine Learning pipeline that includes preprocessing of text data, feature extraction using TF-IDF vectorization, and classification using logistic regression. The data handling involves reading large volumes of reviews efficiently, cleaning text data, and preparing it for modeling. We chose logistic regression due to its efficiency and effectiveness in binary and multiclass classification problems.
