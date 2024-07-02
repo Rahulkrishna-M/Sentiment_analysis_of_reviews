@@ -54,17 +54,17 @@ The model achieves an overall accuracy of **89%**, with the following detailed p
 ### Confusion Matrix
 -**The confusion matrix for the model is as follows**:
 
-  -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/429ed46d-f3db-4997-aa92-358c548c96a1)
+  ![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/429ed46d-f3db-4997-aa92-358c548c96a1)
 
 ### Running a few test cases
 -**For Positive reviews**:
-  -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/14276a9a-8942-4e22-be9e-1a05fff65859)
+  ![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/14276a9a-8942-4e22-be9e-1a05fff65859)
   
 -**For Negative reviews**:
-  -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/33348cd2-935e-4fca-bf94-d7fca117d12f)
+  ![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/33348cd2-935e-4fca-bf94-d7fca117d12f)
   
 -**For Neutral reviews**:
-  -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/409fa3f0-ac53-4f78-b4da-f43f611955ba)
+  ![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/409fa3f0-ac53-4f78-b4da-f43f611955ba)
 
 ### Reasons for Lower Accuracy in Some Categories
 - **Data Imbalance**: The dataset might have an uneven distribution of reviews across the categories, particularly fewer neutral reviews, which can make it difficult for the model to learn effective patterns for this class.
