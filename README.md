@@ -36,7 +36,7 @@ Based on the star ratings, reviews are categorized into three sentiment labels:
 The model uses a simple yet effective logistic regression classifier that is trained on features extracted from the review text via TF-IDF vectorization. The choice of logistic regression was driven by its capability to provide good baseline performance with the ability to scale with more complex feature sets and regularization strategies.
 
 ## Model Accuracy
-The model achieves an overall accuracy of 89%, with the following detailed performance metrics:
+The model achieves an overall accuracy of **89%**, with the following detailed performance metrics:
 
 - **Precision**:
   - Positive: 91%
