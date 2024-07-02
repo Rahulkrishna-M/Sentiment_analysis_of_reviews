@@ -44,7 +44,7 @@ The logistic regression model provides a robust baseline for sentiment analysis 
 The model is deployed as a Flask application, making it easy to use via a simple API. Users can input a review text and receive a sentiment prediction.
 
 ### Predict Example
-To predict the sentiment of a review, make a POST request to the `/predict` endpoint with the review text:
+To predict the sentiment of a review, make a POST request to the `/predict` endpoint with the review text, i could not completly follow through with the heroku part of the problem as i hit a paywall while trying to do so but we could run the same as given below :
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"review":"The product was fantastic!"}' https://<your-app-name>.herokuapp.com/predict
+curl -X POST -H "Content-Type: application/json" -d '{"review":"The product was fantastic!"}' https://app-name.herokuapp.com/predict
 
