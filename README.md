@@ -52,7 +52,7 @@ The model achieves an overall accuracy of **89%**, with the following detailed p
   - Negative: 72%
 
 ### Confusion Matrix
-The confusion matrix for the model is as follows:
+-**The confusion matrix for the model is as follows:**
 ![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/429ed46d-f3db-4997-aa92-358c548c96a1)
 
 ### Running a few test cases
