@@ -65,14 +65,19 @@ The confusion matrix for the model is as follows:
 -**For Neutral reviews**:
   -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/409fa3f0-ac53-4f78-b4da-f43f611955ba)
 
-## Conclusion
-The logistic regression model provides a robust baseline for sentiment analysis of Amazon product reviews. Future improvements could involve exploring more complex models such as support vector machines or deep learning approaches for potentially higher accuracy, especially in distinguishing neutral reviews.
+### Reasons for Lower Accuracy in Some Categories
+- **Data Imbalance**: The dataset might have an uneven distribution of reviews across the categories, particularly fewer neutral reviews, which can make it difficult for the model to learn effective patterns for this class.
+- **Complexity of Natural Language**: Sentiments are inherently subjective and can be influenced by context, sarcasm, and subtlety in language, which logistic regression may not capture effectively.
+
+### Strategies for Improvement
+- **Model Complexity**: Incorporate more complex models like Support Vector Machines, or deep learning models such as LSTM or BERT, which can better understand the context and nuances of language.
+- **Feature Engineering**: Enhance feature extraction by including n-grams, part-of-speech tagging, or sentiment lexicons.
+- **Handling Imbalanced Data**: Apply techniques like SMOTE, class weight adjustments, or undersampling to better handle data imbalance.
 
 ## Usage
 The model is deployed as a Flask application, making it easy to use via a simple API. Users can input a review text and receive a sentiment prediction.
 
 ### Predict Example
-To predict the sentiment of a review, make a POST request to the `/predict` endpoint with the review text, i could not completly follow through with the heroku part of the problem as i hit a paywall while trying to do so but we could run the same as given below :
+Due to limitations during deployment, the complete Heroku deployment could not be finalized. However, the model can still be used locally or with future deployment as shown below:
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"review":"The product was fantastic!"}' https://app-name.herokuapp.com/predict
-
+curl -X POST -H "Content-Type: application/json" -d '{"review":"The product was fantastic!"}' https://<app-name>.herokuapp.com/predict
