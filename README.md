@@ -37,6 +37,16 @@ The model achieves an overall accuracy of 89%, with the following detailed perfo
 The confusion matrix for the model is as follows:
 ![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/429ed46d-f3db-4997-aa92-358c548c96a1)
 
+### Running a few test cases
+-**For Positive reviews**:
+  -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/14276a9a-8942-4e22-be9e-1a05fff65859)
+  
+-**For Negative reviews**:
+  -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/33348cd2-935e-4fca-bf94-d7fca117d12f)
+  
+-**For Neutral reviews**:
+  -![image](https://github.com/Rahulkrishna-M/Sentiment_analysis_of_reviews/assets/102946334/409fa3f0-ac53-4f78-b4da-f43f611955ba)
+
 ## Conclusion
 The logistic regression model provides a robust baseline for sentiment analysis of Amazon product reviews. Future improvements could involve exploring more complex models such as support vector machines or deep learning approaches for potentially higher accuracy, especially in distinguishing neutral reviews.
 
