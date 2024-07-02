@@ -6,10 +6,28 @@ This project focuses on building a sentiment analysis model to classify Amazon p
 ## Approach Used
 The project employs a Machine Learning pipeline that includes preprocessing of text data, feature extraction using TF-IDF vectorization, and classification using logistic regression. The data handling involves reading large volumes of reviews efficiently, cleaning text data, and preparing it for modeling. We chose logistic regression due to its efficiency and effectiveness in binary and multiclass classification problems.
 
+## Review Star Rating
+Reviews on Amazon are often accompanied by a star rating system, where:
+
+- **1 star** is the lowest rating.
+- **5 stars** is the highest rating.
+
+These star ratings serve as a proxy for the sentiment expressed in the review.
+
+## Labeling Logic
+Based on the star ratings, reviews are categorized into three sentiment labels:
+
+- **Positive**: Reviews with a star rating of **4 or 5**. These ratings indicate that the reviewer was mostly satisfied with the product.
+- **Neutral**: Reviews with a star rating of **3**. This rating suggests that the reviewer had a mixed or average opinion about the product.
+- **Negative**: Reviews with a star rating of **1 or 2**. These ratings indicate dissatisfaction or significant issues with the product.
+
+
 ### Data Preprocessing
-- **Parsing Data:** Data is parsed from a compressed JSON format.
-- **Handling Missing Values:** Reviews missing summary text are excluded.
+- **Parsing Data:** Data was obtained in a compressed JSON format.Was extracted and formated correctly .
+- **Handling Missing Values:** Reviews missing summary text were excluded.
 - **Labeling:** Reviews are labeled as positive, neutral, or negative based on their star ratings.
+
+
 
 ### Feature Extraction
 - **TF-IDF Vectorization:** Converts text data into numerical format, capturing the importance of terms relative to their frequency across all documents.
